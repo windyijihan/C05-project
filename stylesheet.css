@@ -1,0 +1,266 @@
+* {
+   box-sizing: border-box; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+
+header{
+    background-color: #14274E;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.fa {
+    margin-right: 5px;
+  } 
+
+.header-logo{
+    color: white;
+    float: left;
+    padding: 5px 50px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header-item a{
+    color: white;
+    float: left;
+    padding: 33px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-item ul{
+    margin:0 auto;
+}
+
+.menu-icon{
+    color:white;
+    float:right;
+    font-size:25px;
+    width: 10%;
+    display: none;
+}
+
+.main {
+    background-color: #F1F6F9;
+    padding-top: 125px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.sale-container{
+    text-align: center;
+}
+
+.sale-container h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    color: #FF578B;
+    animation-name: onsale 4s infinite;
+}
+
+@keyframes onsale{
+    0% {color:#FF578B ;}
+    50% {color: #2B005C;}
+    100% {color:#FF578B ;}
+}
+
+.item-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    float: left;
+    background-color: white;
+    text-align: center;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.item img{
+    width: 200px;
+    height: 300px;
+}
+
+.title-product{
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.price{
+    text-align: left;
+    color: #FF578B;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.progress-bar{
+    position:absolute ;
+    background-color: #FF578B;
+    opacity: 0.3;
+    width: 200px;
+    height: 24px;
+    margin : 5px 0px;
+}
+
+.progress-bar-in{
+    position: relative;
+    background-color: #FF578B;
+    width: 10%;
+    height: 24px;
+    margin : 5px 0px;
+}
+
+.desc-progress-bar{
+    margin: 0px 0px;
+    color: white;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-lainnya{
+    padding: 15px 20px;
+    background-color:white;
+    border: 1px solid #c4c4c4;
+    margin-top:10px;
+}
+
+.btn-lainnya:hover {
+    background-color: #14274E;
+    color: white;
+}
+
+.adv-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.adv-container img{
+    max-width: 100%;
+}
+
+.desc-ecommerce{
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.illustration-container{
+    width: 50%;
+    padding: 100px;
+}
+
+.illustration-container img{
+    width: 100%;
+}
+
+.desc-illustration{
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+}
+
+.desc-illustration p{
+    color: #c4c4c4;
+}
+
+.brand-promise{
+    background-color: #9BA4B4;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.item-brand-container{
+    display: flex;
+    align-items: center;
+}
+
+.item-brand {
+    width: 25%;
+    padding: 20px 20px;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.item-brand-icon{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.item-brand-icon img{
+    width: 100%;
+}
+
+.item-brand-text {
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.item-brand-text h3{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.item-brand-text p{
+    margin-top: 0px;
+}
+
+footer{
+    background-color: #14274E;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 50px;
+}
+
+.footer-logo p{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.footer-desc{
+    color: white;
+    font-size: 14px;
+}
+
+.footer-right{
+    color:white;
+}
+
+.footer-right li{
+    padding-bottom: 20px;
+}
