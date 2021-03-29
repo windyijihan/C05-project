@@ -1,0 +1,57 @@
+@media (max-width:1000px){
+    .illustration-container{
+        padding:50px 50px;
+    }
+
+    .item{
+        margin-bottom:20px;
+    }
+    .desc-ecommerce{
+        flex-wrap: wrap;
+    }
+    .desc-illustration{
+        padding: 0px 0px 50px 0px;
+        font-size: small;
+    }
+
+    .item-brand-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .item-brand{
+        padding-left:15px;
+        padding-right: 15px;
+    }
+    .item-brand-icon{
+        width: 50%;
+        display: block;
+    }
+
+    .item-brand-text{
+        width: 100%;
+
+    }
+    .item-brand-text h3{
+        margin-top: 0px;
+    }
+    .footer-right{
+        font-size: small;
+    }
+
+}
+
+@media (max-width:670px){
+    .header-item{
+        display: none;
+    }
+    .menu-container{
+        padding: 20px 20px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .footer-right{
+        font-size: 10px;
+    }
+}
